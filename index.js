@@ -19,3 +19,20 @@ const form = document.querySelector("form");
 form.setAttribute("data-person", JSON.stringify(person));
 
 console.log(person);
+
+// Video soluzione
+
+// const firstName = document.querySelector("#firstName");
+// const lastName = document.querySelector("#lastName");
+// const age = document.querySelector("#age");
+
+// const person = {
+//   firstName: firstName.value,
+//   lastName: lastName.value,
+//   age: age.value,
+// };
+
+// console.log(person);
+
+// const form = document.querySelector("form");
+// form.setAttribute("data-person", JSON.stringify(person));
